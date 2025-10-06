@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  simple-auth:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - SECRET_KEY=VW/ZRkzOWNdPhzGlgypPayd1drR7esKU
+      - PORT=3000
+    restart: unless-stopped
