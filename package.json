@@ -1,10 +1,14 @@
 {
   "name": "simple-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.mjs"
+    "start": "node ./index.mjs",
+    "publish": "node ./publish.mjs",
+    "publish:patch": "node ./publish.mjs patch",
+    "publish:minor": "node ./publish.mjs minor",
+    "publish:major": "node ./publish.mjs major"
   },
   "author": "",
   "license": "ISC",
