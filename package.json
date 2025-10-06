@@ -10,8 +10,8 @@
     "publish:minor": "node ./publish.mjs minor",
     "publish:major": "node ./publish.mjs major"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "fyl080801",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
