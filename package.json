@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index.mjs",
-    "publish": "node ./publish.mjs",
-    "publish:patch": "node ./publish.mjs patch",
-    "publish:minor": "node ./publish.mjs minor",
-    "publish:major": "node ./publish.mjs major"
+    "publish": "node ./scripts/publish.mjs",
+    "publish:patch": "node ./scripts/publish.mjs patch",
+    "publish:minor": "node ./scripts/publish.mjs minor",
+    "publish:major": "node ./scripts/publish.mjs major"
   },
   "author": "fyl080801",
   "license": "MIT",
