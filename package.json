@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.mjs",
+    "start": "ts-node index.ts",
+    "build": "tsc",
     "publish": "node ./scripts/publish.mjs",
     "publish:patch": "node ./scripts/publish.mjs patch",
     "publish:minor": "node ./scripts/publish.mjs minor",
@@ -16,6 +17,13 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   },
   "engines": {
     "node": ">=22"
