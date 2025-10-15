@@ -1,2 +1,0 @@
-- [x] 修改 scripts/publish.mjs：添加构建步骤、npm publish、改进错误处理（git失败时回滚版本）
-- [x] 测试脚本：构建成功，git提交和标签成功，npm发布失败（需要登录），回滚成功
